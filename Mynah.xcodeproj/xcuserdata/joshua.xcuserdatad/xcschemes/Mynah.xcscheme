@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4247EC4C1980A55200BCEEFC"
-               BuildableName = "MynahTests.xctest"
-               BlueprintName = "MynahTests"
+               BlueprintIdentifier = "4247EC8C1981687B00BCEEFC"
+               BuildableName = "MynahCedar.octest"
+               BlueprintName = "MynahCedar"
                ReferencedContainer = "container:Mynah.xcodeproj">
             </BuildableReference>
          </TestableReference>

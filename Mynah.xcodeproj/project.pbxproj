@@ -14,7 +14,87 @@
 		4247EC421980A55200BCEEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC411980A55200BCEEFC /* main.m */; };
 		4247EC461980A55200BCEEFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC451980A55200BCEEFC /* AppDelegate.m */; };
 		4247EC481980A55200BCEEFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4247EC471980A55200BCEEFC /* Images.xcassets */; };
+		4247EC8F1981687B00BCEEFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC8E1981687B00BCEEFC /* SenTestingKit.framework */; };
+		4247EC901981687B00BCEEFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC371980A55200BCEEFC /* CoreGraphics.framework */; };
+		4247EC911981687B00BCEEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC391980A55200BCEEFC /* UIKit.framework */; };
+		4247EC921981687B00BCEEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC351980A55200BCEEFC /* Foundation.framework */; };
+		4247EC981981687B00BCEEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4247EC961981687B00BCEEFC /* InfoPlist.strings */; };
+		4247EC9A1981687B00BCEEFC /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC991981687B00BCEEFC /* ExampleSpec.mm */; };
+		4247EC9D1981687B00BCEEFC /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC9C1981687B00BCEEFC /* Cedar-iOS.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4247EC741981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		4247EC761981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		4247EC781981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		4247EC7A1981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		4247EC7C1981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		4247EC7E1981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = iOSFrameworkSpecs;
+		};
+		4247EC801981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		4247EC821981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		4247EC841981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = XCUnitAppTests;
+		};
+		4247EC861981681800BCEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4247EC321980A55200BCEEFC /* Mynah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mynah.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +109,15 @@
 		4247EC451980A55200BCEEFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4247EC471980A55200BCEEFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4247EC4E1980A55200BCEEFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4247EC661981681700BCEEFC /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Externals/Cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		4247EC8D1981687B00BCEEFC /* MynahCedar.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MynahCedar.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4247EC8E1981687B00BCEEFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4247EC951981687B00BCEEFC /* MynahCedar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MynahCedar-Info.plist"; sourceTree = "<group>"; };
+		4247EC971981687B00BCEEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4247EC991981687B00BCEEFC /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		4247EC9B1981687B00BCEEFC /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		4247EC9C1981687B00BCEEFC /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		4247EC9E1981687B00BCEEFC /* MynahCedar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MynahCedar-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +131,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4247EC891981687B00BCEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247EC901981687B00BCEEFC /* CoreGraphics.framework in Frameworks */,
+				4247EC911981687B00BCEEFC /* UIKit.framework in Frameworks */,
+				4247EC9D1981687B00BCEEFC /* Cedar-iOS.framework in Frameworks */,
+				4247EC8F1981687B00BCEEFC /* SenTestingKit.framework in Frameworks */,
+				4247EC921981687B00BCEEFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4247EC291980A55200BCEEFC = {
 			isa = PBXGroup;
 			children = (
+				4247EC641981615300BCEEFC /* Externals */,
 				4247EC3B1980A55200BCEEFC /* Mynah */,
+				4247EC931981687B00BCEEFC /* MynahCedar */,
 				4247EC341980A55200BCEEFC /* Frameworks */,
 				4247EC331980A55200BCEEFC /* Products */,
 			);
@@ -58,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				4247EC321980A55200BCEEFC /* Mynah.app */,
+				4247EC8D1981687B00BCEEFC /* MynahCedar.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +173,7 @@
 				4247EC371980A55200BCEEFC /* CoreGraphics.framework */,
 				4247EC391980A55200BCEEFC /* UIKit.framework */,
 				4247EC4E1980A55200BCEEFC /* XCTest.framework */,
+				4247EC8E1981687B00BCEEFC /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,6 +200,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4247EC641981615300BCEEFC /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				4247EC661981681700BCEEFC /* Cedar.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		4247EC671981681700BCEEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4247EC751981681800BCEEFC /* Cedar.framework */,
+				4247EC771981681800BCEEFC /* Specs */,
+				4247EC791981681800BCEEFC /* FocusedSpecs */,
+				4247EC7B1981681800BCEEFC /* libCedar-StaticLib.a */,
+				4247EC7D1981681800BCEEFC /* iOSSpecs.app */,
+				4247EC7F1981681800BCEEFC /* iOSFrameworkSpecs.app */,
+				4247EC811981681800BCEEFC /* OCUnitApp.app */,
+				4247EC831981681800BCEEFC /* OCUnitAppTests.octest */,
+				4247EC851981681800BCEEFC /* XCUnitAppTests.xctest */,
+				4247EC871981681800BCEEFC /* OCUnitAppLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4247EC931981687B00BCEEFC /* MynahCedar */ = {
+			isa = PBXGroup;
+			children = (
+				4247EC991981687B00BCEEFC /* ExampleSpec.mm */,
+				4247EC9B1981687B00BCEEFC /* Rakefile */,
+				4247EC9C1981687B00BCEEFC /* Cedar-iOS.framework */,
+				4247EC941981687B00BCEEFC /* Supporting Files */,
+			);
+			path = MynahCedar;
+			sourceTree = "<group>";
+		};
+		4247EC941981687B00BCEEFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4247EC951981687B00BCEEFC /* MynahCedar-Info.plist */,
+				4247EC961981687B00BCEEFC /* InfoPlist.strings */,
+				4247EC9E1981687B00BCEEFC /* MynahCedar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +266,24 @@
 			productReference = 4247EC321980A55200BCEEFC /* Mynah.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4247EC8C1981687B00BCEEFC /* MynahCedar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4247EC9F1981687B00BCEEFC /* Build configuration list for PBXNativeTarget "MynahCedar" */;
+			buildPhases = (
+				4247EC881981687B00BCEEFC /* Sources */,
+				4247EC891981687B00BCEEFC /* Frameworks */,
+				4247EC8A1981687B00BCEEFC /* Resources */,
+				4247EC8B1981687B00BCEEFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MynahCedar;
+			productName = MynahCedar;
+			productReference = 4247EC8D1981687B00BCEEFC /* MynahCedar.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,12 +303,92 @@
 			mainGroup = 4247EC291980A55200BCEEFC;
 			productRefGroup = 4247EC331980A55200BCEEFC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4247EC671981681700BCEEFC /* Products */;
+					ProjectRef = 4247EC661981681700BCEEFC /* Cedar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4247EC311980A55200BCEEFC /* Mynah */,
+				4247EC8C1981687B00BCEEFC /* MynahCedar */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4247EC751981681800BCEEFC /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 4247EC741981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC771981681800BCEEFC /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 4247EC761981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC791981681800BCEEFC /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = 4247EC781981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC7B1981681800BCEEFC /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = 4247EC7A1981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC7D1981681800BCEEFC /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = 4247EC7C1981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC7F1981681800BCEEFC /* iOSFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSFrameworkSpecs.app;
+			remoteRef = 4247EC7E1981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC811981681800BCEEFC /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = 4247EC801981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC831981681800BCEEFC /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = 4247EC821981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC851981681800BCEEFC /* XCUnitAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCUnitAppTests.xctest;
+			remoteRef = 4247EC841981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4247EC871981681800BCEEFC /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = 4247EC861981681800BCEEFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4247EC301980A55200BCEEFC /* Resources */ = {
@@ -151,7 +400,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4247EC8A1981687B00BCEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247EC981981687B00BCEEFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4247EC8B1981687B00BCEEFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4247EC2E1980A55200BCEEFC /* Sources */ = {
@@ -163,6 +436,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4247EC881981687B00BCEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4247EC9A1981687B00BCEEFC /* ExampleSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -170,6 +451,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				4247EC3F1980A55200BCEEFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4247EC961981687B00BCEEFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4247EC971981687B00BCEEFC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -273,6 +562,58 @@
 			};
 			name = Release;
 		};
+		4247ECA01981687B00BCEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mynah.app/Mynah";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/MynahCedar/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MynahCedar/MynahCedar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MynahCedar/MynahCedar-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4247ECA11981687B00BCEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mynah.app/Mynah";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/MynahCedar/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MynahCedar/MynahCedar-Prefix.pch";
+				INFOPLIST_FILE = "MynahCedar/MynahCedar-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -290,6 +631,15 @@
 			buildConfigurations = (
 				4247EC5F1980A55200BCEEFC /* Debug */,
 				4247EC601980A55200BCEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4247EC9F1981687B00BCEEFC /* Build configuration list for PBXNativeTarget "MynahCedar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4247ECA01981687B00BCEEFC /* Debug */,
+				4247ECA11981687B00BCEEFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
