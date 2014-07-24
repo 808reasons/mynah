@@ -14,22 +14,7 @@
 		4247EC421980A55200BCEEFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC411980A55200BCEEFC /* main.m */; };
 		4247EC461980A55200BCEEFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC451980A55200BCEEFC /* AppDelegate.m */; };
 		4247EC481980A55200BCEEFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4247EC471980A55200BCEEFC /* Images.xcassets */; };
-		4247EC4F1980A55200BCEEFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC4E1980A55200BCEEFC /* XCTest.framework */; };
-		4247EC501980A55200BCEEFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC351980A55200BCEEFC /* Foundation.framework */; };
-		4247EC511980A55200BCEEFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247EC391980A55200BCEEFC /* UIKit.framework */; };
-		4247EC591980A55200BCEEFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4247EC571980A55200BCEEFC /* InfoPlist.strings */; };
-		4247EC5B1980A55200BCEEFC /* MynahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EC5A1980A55200BCEEFC /* MynahTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4247EC521980A55200BCEEFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4247EC2A1980A55200BCEEFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4247EC311980A55200BCEEFC;
-			remoteInfo = Mynah;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4247EC321980A55200BCEEFC /* Mynah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mynah.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +28,7 @@
 		4247EC441980A55200BCEEFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4247EC451980A55200BCEEFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4247EC471980A55200BCEEFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4247EC4D1980A55200BCEEFC /* MynahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MynahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4247EC4E1980A55200BCEEFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4247EC561980A55200BCEEFC /* MynahTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MynahTests-Info.plist"; sourceTree = "<group>"; };
-		4247EC581980A55200BCEEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4247EC5A1980A55200BCEEFC /* MynahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MynahTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4247EC4A1980A55200BCEEFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4247EC4F1980A55200BCEEFC /* XCTest.framework in Frameworks */,
-				4247EC511980A55200BCEEFC /* UIKit.framework in Frameworks */,
-				4247EC501980A55200BCEEFC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				4247EC3B1980A55200BCEEFC /* Mynah */,
-				4247EC541980A55200BCEEFC /* MynahTests */,
 				4247EC341980A55200BCEEFC /* Frameworks */,
 				4247EC331980A55200BCEEFC /* Products */,
 			);
@@ -88,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				4247EC321980A55200BCEEFC /* Mynah.app */,
-				4247EC4D1980A55200BCEEFC /* MynahTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,24 +95,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4247EC541980A55200BCEEFC /* MynahTests */ = {
-			isa = PBXGroup;
-			children = (
-				4247EC5A1980A55200BCEEFC /* MynahTests.m */,
-				4247EC551980A55200BCEEFC /* Supporting Files */,
-			);
-			path = MynahTests;
-			sourceTree = "<group>";
-		};
-		4247EC551980A55200BCEEFC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4247EC561980A55200BCEEFC /* MynahTests-Info.plist */,
-				4247EC571980A55200BCEEFC /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,24 +115,6 @@
 			productReference = 4247EC321980A55200BCEEFC /* Mynah.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4247EC4C1980A55200BCEEFC /* MynahTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4247EC611980A55200BCEEFC /* Build configuration list for PBXNativeTarget "MynahTests" */;
-			buildPhases = (
-				4247EC491980A55200BCEEFC /* Sources */,
-				4247EC4A1980A55200BCEEFC /* Frameworks */,
-				4247EC4B1980A55200BCEEFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4247EC531980A55200BCEEFC /* PBXTargetDependency */,
-			);
-			name = MynahTests;
-			productName = MynahTests;
-			productReference = 4247EC4D1980A55200BCEEFC /* MynahTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +123,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Nowhereville;
-				TargetAttributes = {
-					4247EC4C1980A55200BCEEFC = {
-						TestTargetID = 4247EC311980A55200BCEEFC;
-					};
-				};
 			};
 			buildConfigurationList = 4247EC2D1980A55200BCEEFC /* Build configuration list for PBXProject "Mynah" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +137,6 @@
 			projectRoot = "";
 			targets = (
 				4247EC311980A55200BCEEFC /* Mynah */,
-				4247EC4C1980A55200BCEEFC /* MynahTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,14 +148,6 @@
 			files = (
 				4247EC401980A55200BCEEFC /* InfoPlist.strings in Resources */,
 				4247EC481980A55200BCEEFC /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4247EC4B1980A55200BCEEFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4247EC591980A55200BCEEFC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,37 +163,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4247EC491980A55200BCEEFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4247EC5B1980A55200BCEEFC /* MynahTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4247EC531980A55200BCEEFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4247EC311980A55200BCEEFC /* Mynah */;
-			targetProxy = 4247EC521980A55200BCEEFC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4247EC3E1980A55200BCEEFC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4247EC3F1980A55200BCEEFC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4247EC571980A55200BCEEFC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4247EC581980A55200BCEEFC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -378,46 +273,6 @@
 			};
 			name = Release;
 		};
-		4247EC621980A55200BCEEFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mynah.app/Mynah";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mynah/Mynah-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MynahTests/MynahTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4247EC631980A55200BCEEFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mynah.app/Mynah";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mynah/Mynah-Prefix.pch";
-				INFOPLIST_FILE = "MynahTests/MynahTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,14 +290,6 @@
 			buildConfigurations = (
 				4247EC5F1980A55200BCEEFC /* Debug */,
 				4247EC601980A55200BCEEFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4247EC611980A55200BCEEFC /* Build configuration list for PBXNativeTarget "MynahTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4247EC621980A55200BCEEFC /* Debug */,
-				4247EC631980A55200BCEEFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
